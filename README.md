@@ -62,8 +62,7 @@ Portable encrypted virtual filesystem focused on secure storage, transparent enc
 
 ## Connect
 
-* LinkedIn: [Your LinkedIn]
-* Portfolio: [Coming Soon]
+* LinkedIn: [www.linkedin.com/in/karthik-sethuraman-1298bb320]
 
 <!--
 **Karthik-Sethu-Raman/Karthik-Sethu-Raman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
