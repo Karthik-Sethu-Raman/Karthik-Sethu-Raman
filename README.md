@@ -73,7 +73,7 @@ AI-driven DevSecOps platform that parses Terraform into DAGs and simulates casca
 
 ## GitHub Stats
 
-![Karthik's GitHub stats](https://github-readme-stats.vercel.app/api?username=Karthik-Sethu-Raman&show_icons=true&theme=default&hide_border=true&count_private=true)
+[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=Karthik-Sethu-Raman)](https://github.com/stats-organization/github-stats-extended)
 
 ---
 
