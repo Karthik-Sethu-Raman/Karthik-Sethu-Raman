@@ -1,80 +1,80 @@
-# Hi, I'm Karthik 👋
+# Karthik Sethuraman
 
-Cybersecurity student at Amrita Vishwa Vidyapeetham with a strong interest in low-level systems, AI security, and applied cryptography.
+Cybersecurity undergrad building systems close to the metal — encrypted storage, boot integrity, and AI-driven security tooling.
 
-## Areas of Interest
+`I build security systems (filesystems, boot chains, crypto) and AI/RAG tooling for security operations, mostly in C/C++ and Python.`
 
-* Operating Systems & Bootloaders
-* Systems Programming (C/C++)
-* Cybersecurity & SOC Engineering
-* Applied Cryptography
-* AI for Security Operations
-* Infrastructure & Reliability
-* Platform Security
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karthik-sethuraman-1298bb320)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:karthiksethuraman6@gmail.com)
 
-## Current Projects
+---
 
-### Qwen-ATLAS
+## Currently Building
 
-AI-powered threat intelligence agent combining hybrid RAG, MITRE ATT&CK knowledge, LoRA fine-tuning, and adversarial evaluation research.
+- **Qwen-ATLAS** — RAG-based threat intelligence agent (team project, Model Architect role)
+- **BIS** — UEFI boot integrity system (design stage, blocked on EDK2 fluency)
 
-### EVL (Encrypted Virtual Locker)
+---
 
-Portable encrypted virtual filesystem focused on secure storage, transparent encryption, and future bootable operating system support.
+## Selected Work
 
+### 🔒 EVL — Encrypted Virtual Locker
+`C` `OpenSSL` `libfuse3` `libargon2`
 
-## Technologies
+A block-level encrypted virtual filesystem built on FUSE, verified against 7 distinct attack classes (ciphertext tampering, cross-container block transplant, block reordering).
 
-**Languages**
+- Per-block AES-256-GCM encryption with CSPRNG nonces — concurrent `pread`/`pwrite` access without full-file lock contention
+- Two-key derivation chain (Argon2id → HKDF-Expand, domain-separated labels) enforcing cryptographic isolation between containers
+- Validated under simultaneous read/write access using GDB and Valgrind (zero leaks across ~1,000 allocations)
 
-* C
-* C++
-* Python
-* Java
+**Known limits:** no replay/rollback protection, no crash consistency (documented, not hidden — Phase 2 addresses this)
 
-**Security**
+🔗 [Repo](https://github.com/Karthik-Sethu-Raman) · Tagged `v0.1.0`, MIT licensed
 
-* Cryptography
-* Network Security
-* Threat Intelligence
-* SOC Workflows
+---
 
-**Systems**
+### 🤖 Qwen-ATLAS — Threat Intelligence Agent
+`Python` `ChromaDB` `HuggingFace` `LoRA`
 
-* Linux
-* Git
-* FUSE
-* UEFI Concepts
-* TPM Concepts
+Hybrid RAG pipeline over 915 MITRE ATT&CK STIX objects for cyber threat intelligence retrieval and attribution.
 
-**AI**
+- Raised threat attribution accuracy from **43.75% → 83.75%** on a 40-query frozen benchmark
+- Deterministic benchmark across 8 threat intel categories with a reproducible scoring rubric
+- Adversarial evaluation: measured nation-state misattribution rate under poisoned inputs
 
-* LLM Fine-Tuning
-* Retrieval-Augmented Generation (RAG)
-* vLLM
-* Model Evaluation
+🔗 [Repo](https://github.com/Karthik-Sethu-Raman)
 
-## Currently Learning
+---
 
-* Cloud Infrastructure
-* Advanced Systems Programming
-* Security Automation
+### ⚙️ Preflight AI — Infrastructure Chaos Engine
+`Python` `FastAPI` `React` `NetworkX` `Llama-3`
 
-## Connect
+AI-driven DevSecOps platform that parses Terraform into DAGs and simulates cascading "blast radius" failures.
 
-* LinkedIn: [www.linkedin.com/in/karthik-sethuraman-1298bb320]
+- BFS-based blast-radius simulation over infrastructure dependency graphs
+- Chaos simulations offloaded to a self-hosted Llama-3-70B model on an AMD MI300X GPU (via AMD hackathon access), with Fireworks API fallback for logic synthesis
+- Custom GitHub Action posting AI-synthesized SOC2 review comments and HCL patches directly on PRs
 
-<!--
-**Karthik-Sethu-Raman/Karthik-Sethu-Raman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔗 [Repo](https://github.com/Karthik-Sethu-Raman)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Stack
+
+| | |
+|---|---|
+| **Languages** | C, C++, Python, Java, JavaScript |
+| **Systems** | Linux, FUSE, POSIX I/O, Concurrency, GDB, Valgrind |
+| **Security & Crypto** | AES-256-GCM, Argon2id, HKDF, OpenSSL, Threat Modeling |
+| **AI/ML** | RAG, LoRA fine-tuning, vLLM, ChromaDB |
+| **Web/Infra** | FastAPI, React, Git, GitHub Actions |
+
+---
+
+## GitHub Stats
+
+![Karthik's GitHub stats](https://github-readme-stats.vercel.app/api?username=Karthik-Sethu-Raman&show_icons=true&theme=default&hide_border=true&count_private=true)
+
+---
+
+📫 Reach me at **karthiksethuraman6@gmail.com** or on [LinkedIn](https://www.linkedin.com/in/karthik-sethuraman-1298bb320)
