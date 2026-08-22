@@ -12,13 +12,13 @@ Cybersecurity undergrad building systems close to the metal — encrypted storag
 ## Currently Building
 
 - **Qwen-ATLAS** — RAG-based threat intelligence agent (team project, Model Architect role)
-- **BIS** — UEFI boot integrity system (design stage, blocked on EDK2 fluency)
+
 
 ---
 
 ## Selected Work
 
-### 🔒 EVL — Encrypted Virtual Locker
+### EVL — Encrypted Virtual Locker
 `C` `OpenSSL` `libfuse3` `libargon2`
 
 A block-level encrypted virtual filesystem built on FUSE, verified against 7 distinct attack classes (ciphertext tampering, cross-container block transplant, block reordering).
@@ -33,7 +33,7 @@ A block-level encrypted virtual filesystem built on FUSE, verified against 7 dis
 
 ---
 
-### 🤖 Qwen-ATLAS — Threat Intelligence Agent
+### Qwen-ATLAS — Threat Intelligence Agent
 `Python` `ChromaDB` `HuggingFace` `LoRA`
 
 Hybrid RAG pipeline over 915 MITRE ATT&CK STIX objects for cyber threat intelligence retrieval and attribution.
@@ -46,7 +46,7 @@ Hybrid RAG pipeline over 915 MITRE ATT&CK STIX objects for cyber threat intellig
 
 ---
 
-### ⚙️ Preflight AI — Infrastructure Chaos Engine
+### Preflight AI — Infrastructure Chaos Engine
 `Python` `FastAPI` `React` `NetworkX` `Llama-3`
 
 AI-driven DevSecOps platform that parses Terraform into DAGs and simulates cascading "blast radius" failures.
