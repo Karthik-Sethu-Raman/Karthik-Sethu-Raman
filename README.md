@@ -11,6 +11,7 @@
 </p>
 
 <p align="center">
+  <a href="https://ksr-portfolio-one.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-07111F?style=flat-square&logo=vercel&logoColor=64FFDA" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/karthik-sethuraman-1298bb320"><img src="https://img.shields.io/badge/LinkedIn-07111F?style=flat-square&logo=linkedin&logoColor=E6EDF3" alt="LinkedIn"/></a>
   <a href="mailto:karthiksethuraman6@gmail.com"><img src="https://img.shields.io/badge/Email-07111F?style=flat-square&logo=gmail&logoColor=E6EDF3" alt="Email"/></a>
 </p>
